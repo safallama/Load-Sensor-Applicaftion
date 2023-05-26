@@ -1,8 +1,13 @@
-#include <UTFT.h>
-#include <HX711.h>
-#include <URTouch.h>
-#include <URTouchCD.h>
-#include <UTFT_Buttons.h>
+//the code is written with the help of different insightful videos, and implemented to adjust to the requirement of the project.
+// This is C++ based code written for arduino microcontroller
+
+#include <UTFT.h> //install and include UTFT library
+#include <HX711.h> //install and include HX711 library, it is the  ampliphier for the load sensor data. 
+#include <URTouch.h> //install and include URTouch library
+#include <URTouchCD.h> //install and include URTouchCD library
+#include <UTFT_Buttons.h> //install and include UTFT_Buttons library
+
+//Remember each and every library included may not be required, they are all included to make things work just in case. PLease check if you require the library 
 
 // Define the pins for the LCD screen and HX711 load cells
 #define TOUCH_ORIENTATION LANDSCAPE
