@@ -1,4 +1,6 @@
 //the code is written with the help of different insightful videos, and implemented to adjust to the requirement of the project.
+//the code below creates the HMI using the 7" TFT touchscreen to let the user choose the object based on the weight data transfered received from Load Cells(they are load sensors used to measure the weight of 
+//an bject) and displayed on the screen. It draws 9 different boxes on the screen that accomodates 8 different load cells and displays data inide the correspondin boxes. 
 // This is C++ based code written for arduino microcontroller
 
 #include <UTFT.h> //install and include UTFT library
